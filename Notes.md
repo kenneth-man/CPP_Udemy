@@ -24,32 +24,42 @@
 <br>
 
 ## Preprocessor Directives
-### Processes code before compilation; begin with '#'
+### Processes code before compilation; begin with `#`
 ### e.g.
-- ### '#include <iostream>' is a Preprocessor Directive. When the preprocessor sees this, it will replace this line with the file that it's referring to
+```
+#include <iostream>
+```
+### is a Preprocessor Directive. When the preprocessor sees this, it will replace this line with the file that it's referring to
 
 <br>
 
-## 'int main()' Function
+## `int main()` Function
 ### Entry point of the program; must be defined in every C++ program; Only one main function per program
-### Another version of main function is 'int main(int argc, char* argv[])' that expects arguments from the OS, from the commandline
+### Another version of main function is `int main(int argc, char* argv[])` that expects arguments from the OS, from the commandline
 
 <br>
 
 ## Namespaces
 ### Used to prevent naming conflicts
 ### e.g. Using entire namespace
-- ### 'using namespace std'
+```
+using namespace std
+```
 
 <br>
 
 ### e.g. Using only what you need
-- ### 'using std::cout'
+```
+using std::cout
+```
 
 <br>
 
 ### e.g. Using different namespaces
-- ### 'std::cout', 'customLibraryNamespace::cout'
+```
+std::cout
+customLibraryNamespace::cout
+```
 
 <br>
 
@@ -97,3 +107,112 @@
 
 <br>
 
+## `std::endl`
+### `std::endl` is equivalent to `\n` then `std::flush()` (flush the buffer to ensure the output is immediately displayed)
+### Don't use in most cases, because it's inefficient
+
+<br>
+
+## Buffer
+### Temporary storage area in memory that holds data while it's being transferred or processed
+### Commonly used in various I/O (input/output) operations to efficiently manage the transfer of data between different parts of a program or between the program and external devices
+
+<br>
+
+### Input Buffer
+- ### Holds data that's been read from an input source (e.g. file, keyboard, network)
+- ### When reading data, it's more efficient to read a chunk of data into a buffer rather than reading one byte or character at a time. This minimizes the number of actual I/O operations, improving performance
+
+<br>
+
+### Output Buffer
+- ### Holds data that's been written to an output source (e.g. file, console, network)
+- ### When writing data, it's often more efficient to accumulate data in a buffer and write it as a block, reducing the number of actual I/O operations and improving performance.
+
+<br>
+
+## Arrays
+### Elements all same type
+### Fixed size
+### Name of the array represents the location of the 1st element in the array. The index represents the offset in memory from the 1st element's location
+### Efficient, but less flexible (use when size is known and fixed)
+
+<br>
+
+### e.g.
+```
+char myArray [7] {'a', 'b', 'c', 'd', 'e', 'f', 'g'};
+```
+
+<br>
+
+### e.g.
+```
+// size automatically determined
+int myArray [] {1, 2, 3};
+```
+
+<br>
+
+### e.g.
+```
+// initialize all to 0
+int myArray [420] {0};
+```
+
+<br>
+
+### e.g.
+```
+// initialize first 2 indexes to  3 and 5, and the rest to 0
+int myArray [10] {3, 5};
+```
+
+<br>
+
+### e.g.
+```
+// assign first and last indexes to 100 and 1000
+int arr [10] {0};
+arr[0] = 100;
+arr[(sizeof(arr) / sizeof(arr[0])) - 1] = 1000;
+```
+
+<br>
+
+![](./img/array_multi_dimensional.png)
+![](./img/array_multi_dimensional_2.png)
+
+<br>
+
+## Vectors
+### Elements all same type
+### Dynamic size
+### Can provide bounds checking with some methods
+### Vectors are objects
+
+<br>
+
+### e.g.
+```
+#include <vector> // required for vectors
+using std::vector; // or using namespace std; part of the standard library
+
+vector<int> myVector {1, 2, 3, 4, 5};
+```
+
+<br>
+
+### e.g.
+```
+// initialize all 420 elements to 69.69
+vector<double> myVector (420, 69.69);
+```
+
+<br>
+
+### e.g.
+```
+// initialize all 5 elements to 0
+vector<int> myVector (5);
+```
