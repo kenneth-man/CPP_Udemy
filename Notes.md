@@ -72,8 +72,6 @@ customLibraryNamespace::cout
 
 ![](./img/primitive_data_type_sizes.png)
 
-<br>
-
 ![](./img/primitive_data_type_char.png)
 
 <br>
@@ -83,11 +81,7 @@ customLibraryNamespace::cout
 ### ***Unsigned*** integers can only be positive
 ![](./img/primitive_data_type_int.png)
 
-<br>
-
 ![](./img/primitive_data_type_float.png)
-
-<br>
 
 ![](./img/primitive_data_type_bool.png)
 
@@ -181,6 +175,7 @@ arr[(sizeof(arr) / sizeof(arr[0])) - 1] = 1000;
 <br>
 
 ![](./img/array_multi_dimensional.png)
+
 ![](./img/array_multi_dimensional_2.png)
 
 <br>
@@ -216,3 +211,67 @@ vector<double> myVector (420, 69.69);
 // initialize all 5 elements to 0
 vector<int> myVector (5);
 ```
+
+<br>
+
+## Increment Operator
+### e.g. Preincrement (incremented before it's used)
+```
+int counter {10};
+int result {0};
+
+result = ++counter;
+
+cout << counter << '\n'; // 11
+cout << result << '\n'; // 11
+```
+
+<br>
+
+### e.g. Postincrement (used before it's incremented)
+```
+int counter {10};
+int result {0};
+
+result = counter++;
+
+cout << counter << '\n'; // 11
+cout << result << '\n'; // 10
+```
+
+## Type Casting
+### ***Higher Type*** means it can store larger values
+![](./img/mixed_type_conversions.png)
+
+![](./img/mixed_type_conversions_2.png)
+
+![](./img/mixed_type_conversions_3.png)
+
+<br>
+
+## 3 Way Comparion Operator ('Spaceship')
+### In C++20, <=>
+### e.g.
+```
+(A <=> B) < 0 // is true if A < B
+(A <=> B) > 0 // is true if A > B
+(A <=> B) == 0 // is true if A and B are equal/equivalent
+```
+
+<br>
+
+## Compund Assignment Operators
+![](./img/compound_assignment_operators.png)
+
+<br>
+
+## Operator Precedence
+![](./img/operator_precedence.png)
+
+<br>
+
+## Looping Constructs
+![](./img/looping_constructs.png)
+
+<br>
+

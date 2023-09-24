@@ -4,11 +4,154 @@
 // Run C/C++ file (play button)
 #include <iostream>
 #include <vector>
+#include <string>
+#include <numeric>
+#include <cmath>
+#include <algorithm>
+#include <limits>
 using namespace std;
 
+// SECTION 10 CHALLENGE
 int main() {
 
+	return 0;
 }
+
+// SECTION 9 CHALLENGE
+// void printInstructions() {
+// 	cout << '\n';
+// 	cout << '\n';
+// 	cout << "=========================================="<< '\n';
+// 	cout << "P - Print Numbers" << '\n';
+// 	cout << "A - Add a number" << '\n';
+// 	cout << "M - Display mean of the numbers" << '\n';
+// 	cout << "S - Display the smallest number" << '\n';
+// 	cout << "L - Display the largest" << '\n';
+// 	cout << "Q - Quit" << '\n';
+// 	cout << '\n';
+// 	cout << "Enter your choice: ";
+// }
+// void calcStringList(vector<int> userList) {
+// 	cout << "[ ";
+// 	for (int num: userList) cout << num << " ";
+// 	cout << "]" << '\n';
+// }
+// void calcMean (vector<int> userList) {
+// 	int total {accumulate(userList.begin(),userList.end(),0)};
+// 	cout << "Mean is: " << static_cast<double>(total) / userList.size() << '\n';
+// }
+// enum class SmallestLargest {
+//     SMALLEST,
+//     LARGEST
+// };
+// void calcSmallestLargest (vector<int> userList, SmallestLargest type) {
+// 	int stored;
+// 	for (int n : userList) {
+// 		if (
+// 			!stored
+// 			|| (type == SmallestLargest::SMALLEST ? n < stored : n > stored)
+// 		) {
+// 			stored = n;
+// 		}
+// 	}
+// 	string output = {type == SmallestLargest::SMALLEST ? "Smallest" : "Largest"};
+// 	output += " is: ";
+// 	cout << output << stored << '\n';
+// }
+// int main() {
+// 	bool shouldRun {true};
+// 	vector<int> userList;
+// 	while(shouldRun) {
+// 		printInstructions();
+// 		char optionChosen;
+// 		int addToUserList;
+// 		cin >> optionChosen;
+// 		switch (optionChosen) {
+// 			case 'p':
+// 			case 'P':
+// 				if (userList.size() == 0) {
+// 					cout << "[] - the list is empty" << '\n';
+// 					break;
+// 				}
+// 				calcStringList(userList);
+// 				break;
+// 			case 'a':
+// 			case 'A':
+// 				cout << "Type an integer to add to the list: ";
+// 				cin >> addToUserList;
+// 				if (cin) {
+// 					userList.push_back(addToUserList);
+// 					cout << addToUserList << " added" << '\n';
+// 					break;
+// 				}
+// 				cout << "Expected type of integer was not given" << '\n';
+// 				/*
+// 					Entering a non integer value when integer is expected causes cin stream to enter a "fail" state (failbit will be set).
+// 					Subsequent attempts to read from cin will fail until the "fail" state is cleared.
+// 				*/
+// 				cin.clear(); // Clear the error state
+// 				cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Ignore the invalid input
+// 				break;
+// 			case 'm':
+// 			case 'M':
+// 				if (userList.size() == 0) {
+// 					cout << "Cannot calculate the mean of an empty list" << '\n';
+// 					break;
+// 				}
+// 				calcMean(userList);
+// 				break;
+// 			case 's':
+// 			case 'S':
+// 				if (userList.size() == 0) {
+// 					cout << "Cannot get smallest number of an empty list" << '\n';
+// 					break;
+// 				}
+// 				calcSmallestLargest(userList, SmallestLargest::SMALLEST);
+// 				break;
+// 			case 'l':
+// 			case 'L':
+// 				if (userList.size() == 0) {
+// 					cout << "Cannot get largest number of an empty list" << '\n';
+// 					break;
+// 				}
+// 				calcSmallestLargest(userList, SmallestLargest::LARGEST);
+// 				break;
+// 			case 'q':
+// 			case 'Q':
+// 				cout << "Goodbye" << '\n';
+// 				shouldRun = false;
+// 				break;
+// 			default:
+// 				cout << "Unknown selection, Please try again" << '\n';
+// 		}
+// 	}
+// 	return 0;
+// }
+
+// SECTION 8 CHALLENGE
+// int remainingCents;
+// int calcNumOfChangeType(int changeType) {
+// 	const double inclusion {static_cast<double>(remainingCents) / changeType};
+// 	if (inclusion <= 1.0) return 0;
+// 	const int numOfChangeType {static_cast<int>(floor(inclusion))};
+// 	remainingCents -= (numOfChangeType * changeType);
+// 	return numOfChangeType;
+// }
+// int main() {
+// 	const int centsInDollar {100};
+// 	const int centsInQuarter {25};
+// 	const int centsInDime {10};
+// 	const int centsInNickel {5};
+// 	const int centsInPenny {1};
+// 	cout << "Enter an integer representing the number of cents" << '\n';
+// 	cin >> remainingCents;
+// 	cout << "Dollars: " << calcNumOfChangeType(centsInDollar) << '\n';
+// 	cout << "Quarters: " << calcNumOfChangeType(centsInQuarter) << '\n';
+// 	cout << "Dimes: " << calcNumOfChangeType(centsInDime) << '\n';
+// 	cout << "Nickels: " << calcNumOfChangeType(centsInNickel) << '\n';
+// 	cout << "Pennies: " << calcNumOfChangeType(centsInPenny) << '\n';
+// 	return 0;
+// }
 
 // SECTION 7 CHALLENGE
 // int main() {
@@ -31,9 +174,9 @@ int main() {
 
 // SECTION 6 CHALLENGE
 // int main() {
-// 	int smallRoom {25};
-// 	int largeRoom {35};
-// 	float taxRate {0.06};
+// 	const int smallRoom {25};
+// 	const int largeRoom {35};
+// 	const float taxRate {0.06};
 // 	int smallRoomCount, largeRoomCount, cost;
 // 	float total, tax;
 // 	cout << "Number of small rooms to be cleaned?" << "\n";
