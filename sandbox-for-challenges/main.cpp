@@ -11,11 +11,39 @@
 #include <limits>
 using namespace std;
 
-// SECTION 10 CHALLENGE
+// SECTION 11 CHALLENGE
 int main() {
 
 	return 0;
 }
+
+// SECTION 10 CHALLENGE
+// string crypt(string message, bool encrypt = true) {
+// 	const string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+// 	const string key {"ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba"};
+// 	string returnMessage;
+// 	for (char c : message) {
+// 		auto index {encrypt ? alphabet.find(c) : key.find(c)};
+// 		if (string::npos == index) {
+// 			cout << "ERROR!!! - Included a non-alphabetical character" << '\n';
+// 			returnMessage = "ERROR!!!";
+// 			break;
+// 		}
+// 		encrypt ? returnMessage.push_back(key[index]) : returnMessage.push_back(alphabet[index]);
+// 	}
+// 	return returnMessage;
+// }
+// int main() {
+// 	string message;
+// 	cout << "Enter your secret message: ";
+// 	cin >> message;
+// 	cout << "Encrypting message..." << '\n';
+// 	message = crypt(message);
+// 	cout << "Encrypted message: " << message << '\n';
+// 	cout << "Decrypting message..." << '\n';
+// 	cout << "Decrypted message: " << crypt(message, false) << '\n';
+// 	return 0;
+// }
 
 // SECTION 9 CHALLENGE
 // void printInstructions() {

@@ -24,6 +24,7 @@
 <br>
 
 ## Preprocessor Directives
+### Import header files
 ### Processes code before compilation; begin with `#`
 ### e.g.
 ```
@@ -272,6 +273,46 @@ cout << result << '\n'; // 10
 
 ## Looping Constructs
 ![](./img/looping_constructs.png)
+
+<br>
+
+## C Style Strings
+![](./img/c_style_strings.png)
+
+<br>
+
+## C++ Style Strings
+![](./img/cpp_style%20strings.png)
+
+![](./img/cpp_style%20strings_2.png)
+
+### Cannot concatenate C style literals with `+` operator; can with C++ strings
+![](./img/cpp_style%20strings_3.png)
+
+<br>
+
+### `size_t`
+### Unsigned integer type that is the result of the `sizeof` operator 
+### Can store the maximum size of a theoretically possible object of any type
+### Safely store the value of any non-member pointer
+### Commonly used for array indexing and loop counting. Programs that use other types, such as `unsigned int` for array indexing may fail on, e.g. 64-bit systems when the index exceeds UINT_MAX or if it relies on 32-bit modular arithmetic
+### When indexing C++ containers, such as `std::string`, `std::vector`, etc...
+### e.g.
+```
+for (size_t i {0}; i < myString.length(); ++i) {
+	// do something
+}
+```
+
+<br>
+
+## `string::npos`
+### returned from `std::string.find()` if element in string is not found
+
+<br>
+
+## `last`
+### Last element returned from `std::find()` if the element in vector is not found
 
 <br>
 
