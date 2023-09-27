@@ -316,3 +316,29 @@ for (size_t i {0}; i < myString.length(); ++i) {
 
 <br>
 
+## Function Prototypes
+![](./img/function_prototypes.png)
+
+![](./img/function_prototypes_2.png)
+
+![](./img/function_prototypes_3.png)
+
+![](./img/function_prototypes_4.png)
+
+### Can't define local functions inside other function, unless using lambda functions
+
+<br>
+
+## Pass by Value
+![](./img/pass_by_value.png)
+
+### Good:
+- ### Since we're making a copy, we can't modify the original value by mistake
+
+### Bad:
+- ### If the object is large, it can be expensive (storage and time) to make a copy
+
+- ### Sometimes we want to modify the original value
+
+<br>
+
