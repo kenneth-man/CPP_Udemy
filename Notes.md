@@ -329,8 +329,24 @@ for (size_t i {0}; i < myString.length(); ++i) {
 
 <br>
 
+## Passing Arrays to Functions
+### Remember - Array names evaluate to the memory location address of the first element in the array; elements stored contiguously
+![](./img/passing_arrays_to_functions.png)
+
+![](./img/passing_arrays_to_functions_2.png)
+
+![](./img/passing_arrays_to_functions_3.png)
+
+![](./img/passing_arrays_to_functions_4.png)
+
+![](./img/passing_arrays_to_functions_5.png)
+
+<br>
+
 ## Pass by Value
 ![](./img/pass_by_value.png)
+
+### Default arguments can be in the prototype or the definition, but not both (best practice in the prototype)
 
 ### Good:
 - ### Since we're making a copy, we can't modify the original value by mistake
@@ -342,3 +358,49 @@ for (size_t i {0}; i < myString.length(); ++i) {
 
 <br>
 
+## Pass by Reference
+![](./img/pass_by_reference.png)
+
+![](./img/pass_by_reference_2.png)
+
+![](./img/pass_by_reference_3.png)
+
+![](./img/pass_by_reference_4.png)
+
+<br>
+
+## Overloading Functions
+![](./img/overloading_functions.png)
+### Have to define each overloaded function (could use templates)
+### Compiler will type coerce (e.g. if a function expecting a float doesn't exist, the function expecting a double will be used, converting the float arg to a double)
+![](./img/overloading_functions_2.png)
+
+![](./img/overloading_functions_3.png)
+
+<br>
+
+## Uniform Initialization (vs normal assignment)
+![](./img/uniform_initialization.png)
+
+<br>
+
+## Static Local Variables
+### Initialized once; Retains it's value between calls, until the program ends
+### When you need to know the previous value of a variable in a function without having to keep passing back in
+![](./img/static_local_variables.png)
+
+<br>
+
+## How do Function Calls work?
+### Use an area of memory called the **Call stack**; Each item in the call stack is called a **Frame** or **Activation record**
+### Memory consists of **Heap**, **Stack**, **Static** and **Global** variables, **Code**
+![](./img/function_calls.png)
+
+![](./img/function_calls_2.png)
+
+<br>
+
+## Inline Functions
+![](./img/inline_functions.png)
+
+## Recursion
