@@ -379,7 +379,7 @@ for (size_t i {0}; i < myString.length(); ++i) {
 
 <br>
 
-## Uniform Initialization (vs normal assignment)
+## Uniform Initialization/Initializor List (vs normal assignment)
 ![](./img/uniform_initialization.png)
 
 <br>
@@ -393,7 +393,7 @@ for (size_t i {0}; i < myString.length(); ++i) {
 
 ## How do Function Calls work?
 ### Use an area of memory called the **Call stack**; Each item in the call stack is called a **Frame** or **Activation record**
-### Memory consists of **Heap**, **Stack**, **Static** and **Global** variables, **Code**
+### *Memory consists of **Heap**, **Stack**, **Static** and **Global** variables, **Code***
 ![](./img/function_calls.png)
 
 ![](./img/function_calls_2.png)
@@ -404,3 +404,78 @@ for (size_t i {0}; i < myString.length(); ++i) {
 ![](./img/inline_functions.png)
 
 ## Recursion
+### A function that calls itself
+### 2 or more activation records for the same function on the call stack === recursion
+![](./img/recursive.png)
+
+![](./img/recursive_2.png)
+
+![](./img/recursive_3.png)
+
+<br>
+
+## Pointers
+### A variable that stores a memory address as its value
+![](./img/pointers.png)
+
+![](./img/pointers_2.png)
+
+### Just like all variablaes, if you don't initialize a pointer, it will point to a random memory location
+
+### e.g.
+```
+// Equivalent
+
+int *myPtr;
+char* myPtr2;
+```
+
+<br>
+
+### e.g.
+```
+// Initializing pointer variables to 'no-where' (address 0)
+
+int *myPtr {};
+string *myPtr2 {nullptr};
+```
+
+<br>
+
+![](./img/pointers_4.png)
+
+![](./img/pointers_5.png)
+
+![](./img/pointers_6.png)
+
+![](./img/pointers_7.png)
+
+<br>
+
+## Dereferencing Pointers
+### Get the value of the address a pointer is pointing to
+![](./img/dereferencing_pointer.png)
+
+![](./img/dereferencing_pointer_2.png)
+
+![](./img/dereferencing_pointer_3.png)
+
+<br>
+
+## Dynamic Memory Allocation
+![](./img/dynamic_memory_allocation.png)
+
+### Use `new` to allocate memory (on the heap) at runtime
+![](./img/dynamic_memory_allocation_2.png)
+
+### When finished using the memory, must deallocate using `delete`, making the memory available to use again
+![](./img/dynamic_memory_allocation_3.png)
+
+### Allocating and deallocating memory for an array
+![](./img/dynamic_memory_allocation_4.png)
+![](./img/dynamic_memory_allocation_5.png)
+
+<br>
+
+## Pointer Arithmetic
+![](./img/pointer_arithmetic.png)
