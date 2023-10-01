@@ -369,6 +369,14 @@ for (size_t i {0}; i < myString.length(); ++i) {
 
 <br>
 
+## What is a Reference?
+![](./img/reference.png)
+
+### (A) !!! **Address Operator** and **Reference Operator** are different but share the same operator `&`. Reference is during variable declaration
+![](./img/reference_3.png)
+
+<br>
+
 ## Overloading Functions
 ![](./img/overloading_functions.png)
 ### Have to define each overloaded function (could use templates)
@@ -414,68 +422,3 @@ for (size_t i {0}; i < myString.length(); ++i) {
 
 <br>
 
-## Pointers
-### A variable that stores a memory address as its value
-![](./img/pointers.png)
-
-![](./img/pointers_2.png)
-
-### Just like all variablaes, if you don't initialize a pointer, it will point to a random memory location
-
-### e.g.
-```
-// Equivalent
-
-int *myPtr;
-char* myPtr2;
-```
-
-<br>
-
-### e.g.
-```
-// Initializing pointer variables to 'no-where' (address 0)
-
-int *myPtr {};
-string *myPtr2 {nullptr};
-```
-
-<br>
-
-![](./img/pointers_4.png)
-
-![](./img/pointers_5.png)
-
-![](./img/pointers_6.png)
-
-![](./img/pointers_7.png)
-
-<br>
-
-## Dereferencing Pointers
-### Get the value of the address a pointer is pointing to
-![](./img/dereferencing_pointer.png)
-
-![](./img/dereferencing_pointer_2.png)
-
-![](./img/dereferencing_pointer_3.png)
-
-<br>
-
-## Dynamic Memory Allocation
-![](./img/dynamic_memory_allocation.png)
-
-### Use `new` to allocate memory (on the heap) at runtime
-![](./img/dynamic_memory_allocation_2.png)
-
-### When finished using the memory, must deallocate using `delete`, making the memory available to use again
-![](./img/dynamic_memory_allocation_3.png)
-
-### Allocating and deallocating memory for an array
-![](./img/dynamic_memory_allocation_4.png)
-![](./img/dynamic_memory_allocation_5.png)
-
-<br>
-
-## Pointer Arithmetic
-![](./img/pointer_arithmetic.png)
