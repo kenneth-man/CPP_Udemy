@@ -122,3 +122,16 @@ string *myPtr2 {nullptr};
 ![](./img/return_dynamically_allocated_memory.png)
 
 ![](./img/return_dynamically_allocated_memory_2.png)
+
+<br>
+
+## When to use Pointer vs Reference parameters
+
+| Parameter | Function Modifies the Parameter? | Parameter can be `nullptr`? | Notes |
+| :-: | :-: | :-: | :-: |
+| Pass By Value (Default) | Y | N | Parameter size is small; arbitrary performance loss if copied |
+| Pass By Reference using a Pointer | Y | Y | Parameter is expensive to copy |
+| Pass By Reference using a Pointer to `const` | N | Y | Parameter is expensive to copy |
+| Pass By Reference using a `const` Pointer to `const` | N | Y | <ul><li>Parameter is expensive to copy</li><li>Don't need to modify the Pointer</li></ul> |
+| Pass By Reference using a Reference | Y | N | Parameter is expensive to copy |
+| Pass By Reference using a `const` Reference | N | N | Parameter is expensive to copy |

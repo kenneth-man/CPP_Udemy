@@ -246,6 +246,7 @@ cout << result << '\n'; // 10
 
 ![](./img/mixed_type_conversions_2.png)
 
+### Static casting explicitly
 ![](./img/mixed_type_conversions_3.png)
 
 <br>
@@ -422,3 +423,14 @@ for (size_t i {0}; i < myString.length(); ++i) {
 
 <br>
 
+## L values and R values
+### Anything that's not an L value, is an R value
+![](./img/l_value.png)
+
+![](./img/l_value_2.png)
+
+![](./img/l_value_3.png)
+
+![](./img/l_value_4.png)
+
+![](./img/r_value.png)
