@@ -11,11 +11,38 @@
 #include <limits>
 using namespace std;
 
-// SECTION 12 CHALLENGE
+// SECTION 13 CHALLENGE
 int main() {
 
 	return 0;
 }
+
+// SECTION 12 CHALLENGE
+// int *apply_all(int const a1[], size_t a1S, int const a2[], size_t a2S) {
+// 	int *return_array_ptr {new int[a1S * a2S]};
+// 	int count {0};
+// 	for(auto i {0}; i < a2S; ++i) {
+// 		for(auto j {0}; j < a1S; ++j) {
+// 			return_array_ptr[count] = a1[j] * a2[i];
+// 			++count;
+// 		}
+// 	}
+// 	return return_array_ptr;
+// }
+// int main() {
+//     const size_t array1_size {5};
+//     const size_t array2_size {3};
+//     int array1[] {1,2,3,4,5};
+//     int array2[] {10,20,30};
+//     int *results = apply_all(array1, array1_size, array2, array2_size);
+//     constexpr size_t results_size {array1_size * array2_size};
+// 	delete [] results;
+//     cout << "Result: " << '\n';
+//     cout << results << '\n';
+// 	cout << results_size;
+//     cout << endl;
+//     return 0;
+// }
 
 // SECTION 10 CHALLENGE
 // string crypt(string message, bool encrypt = true) {
