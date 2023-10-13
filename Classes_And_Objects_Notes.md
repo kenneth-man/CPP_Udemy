@@ -60,3 +60,102 @@
 ### Guarantees that a header file is only included once in the program
 ### Checks if the header file is already defined, if not, define it and include the header file
 ![](./img/include_guard.png)
+
+<br>
+
+## Constructors and Destructors
+### A default constructor is called if the class has no constructor defined
+![](./img/constructors.png)
+
+![](./img/constructors_2.png)
+
+![](./img/destructors.png)
+
+![](./img/destructors_2.png)
+
+![](./img/destructors_3.png)
+
+<br>
+
+## Constructor Initialization Lists
+![](./img/constructor_initialization_list.png)
+
+![](./img/constructor_initialization_list_2.png)
+
+![](./img/constructor_initialization_list_3.png)
+
+![](./img/constructor_initialization_list_4.png)
+
+<br>
+
+## Delegating Constructors
+![](./img/delegating_constructors.png)
+
+![](./img/delegating_constructors_2.png)
+
+<br>
+
+## Copy Constructor
+### When passing an object by value, the copy constructor is called. C++ provides a default copy constructor
+![](./img/copy_constructor.png)
+
+![](./img/copy_constructor_5.png)
+
+<br>
+
+### Where are Copy Constructors used?
+![](./img/copy_constructor_2.png)
+
+![](./img/copy_constructor_3.png)
+
+![](./img/copy_constructor_4.png)
+
+<br>
+
+### Declare and implement a copy constructor
+![](./img/copy_constructor_6.png)
+
+![](./img/copy_constructor_7.png)
+
+<br>
+
+### Shallow Copy vs Deep Copy
+- ### A shallow copy, copies the memory addresses of the elements in the source object to the target object. It does not create new memory for the copied elements but instead points to the same memory locations as the source object. This means that changes made to the elements in one object will affect the other as well.
+
+- ### A deep copy, on the other hand, creates a new memory on the heap and copies the contents of the source object to the target object. This results in the target object having its own copy of the data, and changes made to one object will not affect the other.
+
+![](./img/shallow_vs_deep_copy.png)
+
+<br>
+
+## Move Constructors
+![](./img/move_constructors.png)
+
+![](./img/move_constructors_2.png)
+
+### R-Value references `&&` = reference to the unnamed temporary value
+
+![](./img/move_constructors_3.png)
+
+### Example:
+![](./img/move_constructors_5.png)
+
+### - The Copy constructor definition makes a deep copy
+![](./img/move_constructors_6.png)
+
+![](./img/move_constructors_7.png)
+
+![](./img/move_constructors_8.png)
+
+![](./img/move_constructors_9.png)
+
+<br>
+
+## `This`
+![](./img/this_keyword.png)
+
+![](./img/this_keyword_2.png)
+
+![](./img/this_keyword_3.png)
+
+![](./img/this_keyword_4.png)

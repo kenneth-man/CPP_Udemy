@@ -371,6 +371,7 @@ for (size_t i {0}; i < myString.length(); ++i) {
 <br>
 
 ## What is a Reference?
+### An alias for an already existing variable. Once a reference is initialized to a variable, it cannot be changed to refer to another variable
 ![](./img/reference.png)
 
 ### (A) !!! **Address Operator** and **Reference Operator** are different but share the same operator `&`. Reference is during variable declaration
@@ -424,7 +425,9 @@ for (size_t i {0}; i < myString.length(); ++i) {
 <br>
 
 ## L values and R values
-### Anything that's not an L value, is an R value
+### **L value** - have names and are addressable
+### Anything that's not an **L value**, is an **R value** (e.g. literals, temporary values, etc...)
+
 ![](./img/l_value.png)
 
 ![](./img/l_value_2.png)
@@ -433,4 +436,12 @@ for (size_t i {0}; i < myString.length(); ++i) {
 
 ![](./img/l_value_4.png)
 
+![](./img/l_value_4b.png)
+
+<br>
+
 ![](./img/r_value.png)
+
+![](./img/move_constructors_4.png)
+
+![](./img/r_value_2.png)
