@@ -11,12 +11,6 @@
 #include <limits>
 using namespace std;
 
-// SECTION 13 CHALLENGE
-int main() {
-
-	return 0;
-}
-
 // SECTION 12 CHALLENGE
 // int *apply_all(int const a1[], size_t a1S, int const a2[], size_t a2S) {
 // 	int *return_array_ptr {new int[a1S * a2S]};
