@@ -2,6 +2,7 @@
 #define _MOVIE_H_
 
 #include <string>
+
 using namespace std;
 
 class Movie

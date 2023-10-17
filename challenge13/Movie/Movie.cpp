@@ -18,5 +18,5 @@ Movie::~Movie() {
 }
 
 void Movie::display() const {
-    cout << name << ", " << rating <<  ", " << watched  <<   endl;
+    cout << name << ", " << rating << ", " << watched << endl;
 }
