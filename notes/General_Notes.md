@@ -280,6 +280,10 @@ cout << result << '\n'; // 10
 ## C Style Strings
 ![](./img/c_style_strings.png)
 
+![](./img/c_style_strings_2.png)
+
+### Terminated with a null character at it's end... `\0`
+
 <br>
 
 ## C++ Style Strings

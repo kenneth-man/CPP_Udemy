@@ -204,7 +204,7 @@
 ## Using `const` with Classes
 ![](./img/const_with_classes.png)
 
-### We have to declare class methods as `const` (using `const` modifier) to tell the compiler that they are allowed to be called from a `const` object (even if the method doesn't actually modify the object)
+### We have to declare class methods as `const` (using `const` modifier after method declaration) to tell the compiler that they are allowed to be called from a `const` object (even if the method doesn't modify the object)
 ![](./img/const_with_classes_2.png)
 
 <br>
@@ -244,3 +244,32 @@ Player::num_players;
 ![](./img/friend_of_class_5.png)
 
 ![](./img/friend_of_class_6.png)
+
+<br>
+
+## Overloading Operators
+### - Allows us to use operators with user-defined types
+
+### Overloading the assignment operator (Copy)
+![](./img/overloading_operator_assignment_copy.png)
+
+### where `Mystring` class is defined as...
+
+![](./img/overloading_operator_assignment_copy_b.png)
+
+![](./img/overloading_operator_assignment_copy_2.png)
+
+### `operator=`
+- ### means you want to overload the assignment `=` operator
+
+![](./img/overloading_operator_assignment_copy_3.png)
+
+### `this`
+- ### refers to the left hand side of the assignment operator
+
+### `rhs`
+- ### refers to the right hand side of the assignment operator and is passed in the arguments
+
+![](./img/overloading_operator_assignment_copy_4.png)
+
+# TBC

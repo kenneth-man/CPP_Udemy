@@ -31,7 +31,7 @@ int main() {
     int *results = apply_all(array1, array1_size, array2, array2_size);
     constexpr size_t results_size {array1_size * array2_size};
 	delete [] results;
-    cout << "Result: " << '\n';
+    cout << "Results: " << '\n';
     cout << results << '\n';
 	cout << results_size;
     cout << endl;

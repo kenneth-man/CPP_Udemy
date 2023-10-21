@@ -10,9 +10,13 @@
 				"-g",
 				"-Wall",
 				"-std=c++17",
-				"${fileDirname}\\*.cpp",
+				// "${fileDirname}\\*.cpp",
+				"${fileDirname}/*.cpp",
+				// "${fileDirname}/Movie/*.cpp",
+				// "${fileDirname}/Movies/*.cpp",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+				// "${fileDirname}\\${fileBasenameNoExtension}.exe"
+				"${fileDirname}/${fileBasenameNoExtension}.exe"
 			],
 			"options": {
 				"cwd": "C:/mingw64/bin"
