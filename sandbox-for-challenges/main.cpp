@@ -1,7 +1,16 @@
-// VSCode:
+// # Setup C++ in VSCode:
+// Command Pallete -> C/C++ Edit Configurations UI
+// Compiler Path to equal "...mingw64/bin/g++.exe", ("...gcc.exe" is the C compiler)
+// C++ Standard to equal whichever version you want (e.g. C++17)
+// Save Changes
+// Then click on 'Terminal' in navbar -> 'Configure Default Build Task' -> Select '...g++.exe Active build file'
+// 'tasks.json' configuration file will be created automatically -> Make your changes to the file
+
+// # Compile, Link and Create executable in VSCode:
 // Terminal -> Run Build task (Compile, Link, Create executable)... -> Open in integrated Terminal (main.exe) -> './main.exe'
 // --- OR ---
 // Run C/C++ file (play button)
+
 #include <iostream>
 #include <vector>
 #include <string>
