@@ -6,12 +6,21 @@
 <br>
 
 ## Declaring a Class, Creating Objects
-### `new [className()]`, returns a memory address to the object
-### Use `new` the object should remain in memory until you manually `delete` it. If you don't use `new`, then the object will be destroyed when it goes out of scope.
+### `new [className()]`, Returns a memory address to the object; allocated memory on the heap
+```
+e.g.
+Player *enemy = new Player();
+enemy->set_name("Random Enemy");
+```
+### Use `new` when the object should remain in memory until you manually `delete` it. If you don't use `new`, the object is created on the stack where it's popped off automatically (and memory freed) when it goes out of scope.
 
-### Because `new` objects are created on the heap and will need to be freed, otherwise it's created on the stack where it's popped off automatically
+```
+e.g.
+// Popped off the stack when it goes out of scope
+Player enemy {"Random Enemy"};
+```
 
-### If you don't manually free dynamically allocated memory, it will cause a memory leak, where you'll eventually run out of memory on the heap causing a crash
+### `new` objects are created on the heap and MUST be freed, otherwise it will cause a memory leak, where you'll eventually run out of memory on the heap causing a crash
 
 ![](./img/declaring_class.png)
 
@@ -32,8 +41,8 @@
 
 ## Access Modifiers: `public`, `private`, `protected`
 ### `public` - accessible everywhere
-### `private` - accessible only by members or friends of the class
-### `protected` - accessible only by members, friends, or children of the class
+### `private` - accessible only by members or friends of the class; can't access on the object instance
+### `protected` - accessible only by members, friends, or children of the class; can't access on the object instance
 
 ![](./img/access_modifiers.png)
 
@@ -248,7 +257,7 @@ Player::num_players;
 <br>
 
 ## Overloading Operators
-### - Allows us to use operators with user-defined types
+### - Allows us to define how operators interact with our custom defined types
 
 ### Overloading the assignment operator (Copy)
 ![](./img/overloading_operator_assignment_copy.png)

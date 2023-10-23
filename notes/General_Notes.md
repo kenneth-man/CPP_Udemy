@@ -364,6 +364,7 @@ for (size_t i {0}; i < myString.length(); ++i) {
 <br>
 
 ## Pass by Reference
+### Use references if making a copy (by value) is expensive or if you want to modify the original value
 ![](./img/pass_by_reference.png)
 
 ![](./img/pass_by_reference_2.png)
