@@ -99,7 +99,8 @@ Player enemy {"Random Enemy"};
 
 <br>
 
-## Delegating Constructors
+## Delegate Constructors
+### A constructor calls another constructor in the same class (often during initialization lists)
 ![](./img/delegating_constructors.png)
 
 ![](./img/delegating_constructors_2.png)
