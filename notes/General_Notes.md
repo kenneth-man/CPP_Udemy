@@ -94,11 +94,23 @@ customLibraryNamespace::cout
 <br>
 
 ### Types of Constants
-- ### Literal Constants (specific values... 3.14)
-- ### Declared Constants (const)
-- ### Constant expressions (constexpr)
-- ### Enumerated constants (enum)
-- ### Defined constants (#define)
+- ### Literal Constants (specific values... `3.14`)
+- ### Declared Constants (`const`)
+- ### Constant expressions (`constexpr`)
+	- ### Used to declare a function or variable is evaluated at compile time rather than runtime; must be a variable with literal value or function that return a literal
+	```
+		e.g.
+		constexpr int myConstValue = 42;
+	```
+	```
+		e.g.
+		constexpr int sum (int a, int b) {
+			return a + b;
+		}
+	```
+	- ### Can improve the performance of your code by moving some computations from runtime to compile time
+- ### Enumerated constants (`enum`)
+- ### Defined constants (`#define`)
 
 <br>
 

@@ -10,12 +10,13 @@
 				"-g",
 				"-Wall",
 				"-std=c++17",
-				// "${fileDirname}\\*.cpp",
 				"${fileDirname}/*.cpp",
-				// "${fileDirname}/Movie/*.cpp",
-				// "${fileDirname}/Movies/*.cpp",
+				"${fileDirname}/Account/*.cpp",
+				"${fileDirname}/Account_Util/*.cpp",
+				"${fileDirname}/Checking_Account/*.cpp",
+				"${fileDirname}/Savings_Account/*.cpp",
+				"${fileDirname}/Trust_Account/*.cpp",
 				"-o",
-				// "${fileDirname}\\${fileBasenameNoExtension}.exe"
 				"${fileDirname}/${fileBasenameNoExtension}.exe"
 			],
 			"options": {

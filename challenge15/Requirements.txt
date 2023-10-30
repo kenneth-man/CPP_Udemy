@@ -36,3 +36,10 @@ Hints:
 Have fun!!  You are no longer beginner C++ programmers!
 
 If you want more practice with operator overloading you can overload += and -= for deposit and withdrawal :)
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+NB:
+	- Don't need to import Parent class in child class `.cpp`, if you import it in the `.h` file (because a child IS-A parent)
+	- in `main.cpp`, `Account_Util.h` is included whereby it imports all other classes used in main (Account, Savings_Account...),
+	so don't need to import them in `main.cpp` again
