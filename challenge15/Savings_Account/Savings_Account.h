@@ -19,7 +19,7 @@ public:
 		double int_rate = default_interest_rate
 	);
 	// Overriding Account::deposit() 
-    bool deposit(double amount);
+    bool deposit(double);
     // ...Inherits the other Account methods
 };
 

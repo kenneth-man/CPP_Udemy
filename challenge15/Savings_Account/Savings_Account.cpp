@@ -7,7 +7,7 @@ Savings_Account::Savings_Account(string name, double balance, double int_rate)
 }
 
 bool Savings_Account::deposit(double amount) {
-    amount += amount * (int_rate/100);
+    amount += amount * (int_rate / 100);
     return Account::deposit(amount);
 }
 

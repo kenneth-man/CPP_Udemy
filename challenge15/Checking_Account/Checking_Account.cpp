@@ -7,6 +7,6 @@ Checking_Account::Checking_Account(string name, double balance)
 }
 
 bool Checking_Account::withdraw(double amount) {
-    amount -= 1.50;
-    return Account::deposit(amount);
+    amount += Checking_Account::check_fee;
+    return Account::withdraw(amount);
 }

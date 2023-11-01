@@ -8,12 +8,13 @@ class Checking_Account: public Account {
 private:
 	static constexpr const char *default_name = "Unnamed Checking Account";
     static constexpr double default_balance = 0.0;
+	static constexpr double check_fee = 1.5;
 public:
     Checking_Account(
 		string name = default_name,
 		double balance = default_balance
 	); 
-    bool withdraw(double amount);
+    bool withdraw(double);
 };
 
 #endif

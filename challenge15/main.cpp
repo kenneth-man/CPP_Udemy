@@ -33,9 +33,9 @@ int main() {
 	// Checking 
     vector<Checking_Account> chk_accounts;
     chk_accounts.push_back(Checking_Account {});
-    chk_accounts.push_back(Checking_Account {"Superman"});
-    chk_accounts.push_back(Checking_Account {"Batman", 2000});
-    chk_accounts.push_back(Checking_Account {"Wonderwoman", 5000});
+    chk_accounts.push_back(Checking_Account {"Kirk"});
+    chk_accounts.push_back(Checking_Account {"Spock", 2000});
+    chk_accounts.push_back(Checking_Account {"Bones", 5000});
 
     display(chk_accounts);
     deposit(chk_accounts, 1000);
@@ -44,13 +44,13 @@ int main() {
 	// Trust 
     vector<Trust_Account> tst_accounts;
     tst_accounts.push_back(Trust_Account {});
-    tst_accounts.push_back(Trust_Account {"Superman"});
-    tst_accounts.push_back(Trust_Account {"Batman", 2000});
-    tst_accounts.push_back(Trust_Account {"Wonderwoman", 5000, 5.0});
+    tst_accounts.push_back(Trust_Account {"Athos", 10000, 5.0});
+    tst_accounts.push_back(Trust_Account {"Porthos", 20000, 4.0});
+    tst_accounts.push_back(Trust_Account {"Aramis", 30000});
 
     display(tst_accounts);
     deposit(tst_accounts, 1000);
-    withdraw(tst_accounts, 2000);
+    withdraw(tst_accounts, 3000);
 
     return 0;
 }
