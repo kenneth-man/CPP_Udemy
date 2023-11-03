@@ -22,7 +22,7 @@
 // # VSCode Config Files:
 /*
 	`tasks.json` = build instructions
-	`launch.json` = debugger settings
+	`launch.json` = debugger setup settings
 	`c_cpp_properties.json` = compiler path and IntelliSense settings
 */
 
