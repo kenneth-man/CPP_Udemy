@@ -214,7 +214,7 @@ Player enemy {"Random Enemy"};
 ## Using `const` with Classes
 ![](./img/const_with_classes.png)
 
-### We have to declare class methods as `const` (using `const` modifier after method declaration) to tell the compiler that they are allowed to be called from a `const` object (even if the method doesn't modify the object)
+### We have to declare class methods as `const` (using `const` after the method declaration) to tell the compiler that they are allowed to be called from a `const` object (even if the method doesn't modify the object)
 ![](./img/const_with_classes_2.png)
 
 <br>
@@ -259,6 +259,14 @@ Player::num_players;
 
 ## Overloading Operators
 ### - Allows us to define how operators interact with our custom defined types
+### - Cannot overload the following operators:
+- ### `::`
+- ### `.*`
+- ### `.`
+- ### `:?`
+- ### `sizeof`
+
+![](./img/operator_overloading.png)
 
 ### Overloading the assignment operator (Copy)
 ![](./img/overloading_operator_assignment_copy.png)
@@ -270,7 +278,7 @@ Player::num_players;
 ![](./img/overloading_operator_assignment_copy_2.png)
 
 ### `operator=`
-- ### means you want to overload the assignment `=` operator
+- ### means you want to overload the assignment operator, `=` 
 
 ![](./img/overloading_operator_assignment_copy_3.png)
 
