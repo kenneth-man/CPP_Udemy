@@ -43,6 +43,8 @@
 
 ## Choosing the base class constructor to be called before the derived class constructor
 ### Base class no-args (default) constructor is called automatically if not specified after a derived constructor
+
+### To initialize a derived object, it's constructor must ensure it's base class is also initialized (The base class may have private member variables, which cannot be accessed from the derived class). Invoke the base-class constructor in the initialization list of the derived constructor:
 ![](./img/choosing_base_class_constructor.png)
 
 ### e.g.
