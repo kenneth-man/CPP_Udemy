@@ -1,3 +1,5 @@
+https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535526#questions
+
 ## Pointers
 ### A variable that stores a memory address as its value
 ![](./img/pointers.png)
