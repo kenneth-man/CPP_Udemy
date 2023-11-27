@@ -103,8 +103,6 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/953
 
 ![](./img/pure_virtual_functions_and_abstract_classes_3.png)
 
-<br>
-
 - ### e.g. Wouldn't need to create instances of the abstract `Shape`, `Open_Shape`, `Closed_Shape` class, but can create instances of `Line`, `Circle` and `Square` concrete classes
 
 - ### Assuming `draw()` and `rotate()` are pure virtual functions in `Shape` class, concrete classes `Line`, `Circle` and `Square` must override them, otherwise they will also be abstract classes
@@ -119,3 +117,19 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/953
 
 <br>
 
+## Abstract Classes as Interfaces
+- ### An abstract class that only has pure virtual functions; concrete classes derived from the abstract class must override all it's pure virtual functions
+- ### C++ doesn't provide true interfaces; we have to use abstract classes and pure virtual functions instead
+
+- ### e.g.
+![](./img/abstract_classes_as_interfaces.png)
+![](./img/abstract_classes_as_interfaces_2.png)
+![](./img/abstract_classes_as_interfaces_3.png)
+- ### The friend function can be used to print any type of object that conforms to the `Printable` 'interface'
+
+<br>
+
+- ### another e.g.
+![](./img/abstract_classes_as_interfaces_4.png)
+![](./img/abstract_classes_as_interfaces_5.png)
+![](./img/abstract_classes_as_interfaces_6.png)
