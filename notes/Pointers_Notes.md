@@ -137,3 +137,35 @@ string *myPtr2 {nullptr};
 | Pass By Reference using a `const` Pointer to `const` | N | Y | <ul><li>Parameter is expensive to copy</li><li>Don't need to modify the Pointer</li></ul> |
 | Pass By Reference using a Reference | Y | N | Parameter is expensive to copy |
 | Pass By Reference using a `const` Reference | N | N | Parameter is expensive to copy |
+
+<br>
+
+<hr>
+
+<br>
+
+https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9610510#questions
+
+## Smart Pointers
+- ### Raw pointers gives us flexibility to manage memory ourselves (allocation, deallocation, lifetime management).
+	- ### But there are some dangers with raw pointers, that smart pointers can avoid...
+		- ### **Memory leaks** = memory which is no longer needed is not released, reducing the amount of usable memory (reduces performance)
+		- ### **Uninitialized (wild) pointers** = pointing to anywhere in memory
+		- ### **Dangling pointers**	= pointing to memory that has been freed/deleted
+		- ### **Not exception safe** = Our program could throw an exception and the code that releases the memory may not execute
+
+<br>
+
+![](./img/smart_pointers.png)
+
+- ### Can't do pointer arithmetic with smart pointers, like you can with raw pointers
+
+- ### **RAII** = Resource Acquisition Is Initialization
+![](./img/smart_pointers_2.png)
+
+- ### Smart pointers are examples of **RAII** classes, since they follow **RAII** in regards to memory resources
+
+<br>
+
+## `std::unique_ptr`
+
