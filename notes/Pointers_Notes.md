@@ -73,7 +73,7 @@ string *myPtr2 {nullptr};
 ### Use `new` to allocate memory (on the heap) at runtime
 ![](./img/dynamic_memory_allocation_2.png)
 
-### When finished using the memory, must deallocate using `delete`, making the memory available to use again
+### When finished using the memory, must deallocate using `delete` (which calls the destructor of that class), making the memory available to use again
 ![](./img/dynamic_memory_allocation_3.png)
 
 ### Allocating and deallocating memory for an array
@@ -158,9 +158,13 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/961
 
 ![](./img/smart_pointers.png)
 
+- ### The smart pointer is on the stack and the memory that it is pointing to is on the heap
+
 - ### Can't do pointer arithmetic with smart pointers, like you can with raw pointers
 
-- ### **RAII** = Resource Acquisition Is Initialization
+<br>
+
+- ## **RAII** = Resource Acquisition Is Initialization
 ![](./img/smart_pointers_2.png)
 
 - ### Smart pointers are examples of **RAII** classes, since they follow **RAII** in regards to memory resources
@@ -168,4 +172,41 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/961
 <br>
 
 ## `std::unique_ptr`
+- ### IMPORTANT - cannot copy (e.g.
+	- ### ❌ Copy constructor
+	- ### ❌ Pass by value
+	- ### ❌ Reassign (but can `std::move()`))
 
+![](./img/unique_ptr.png)
+
+![](./img/unique_ptr_2.png)
+
+- ### More efficeint way to initialize a `unique_ptr` since C++14
+![](./img/unique_ptr_2b.png)
+
+- ### `.get()` returns a pointer to the object
+- ### `.reset()` deletes the object and sets the pointer to `nullptr`
+![](./img/unique_ptr_3.png)
+
+![](./img/unique_ptr_4.png)
+
+- ### `std::move()`
+	- ### `ptr` gives up ownership of the pointer to `vec`
+	- ### `ptr` is set to `nullptr`
+![](./img/unique_ptr_5.png)
+
+<br>
+
+## `std::shared_ptr`
+![](./img/shared_ptr.png)
+
+![](./img/shared_ptr_2.png)
+
+![](./img/shared_ptr_3.png)
+
+![](./img/shared_ptr_4.png)
+
+![](./img/shared_ptr_5.png)
+
+- ### More efficeint way to initialize a `shared_ptr` since C++11
+![](./img/shared_ptr_6.png)
