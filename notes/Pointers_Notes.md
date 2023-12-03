@@ -154,6 +154,8 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/961
 		- ### **Dangling pointers**	= pointing to memory that has been freed/deleted
 		- ### **Not exception safe** = Our program could throw an exception and the code that releases the memory may not execute
 
+- ### Use `std::unique_ptr` in most cases
+
 <br>
 
 ![](./img/smart_pointers.png)
@@ -198,6 +200,7 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/961
 <br>
 
 ## `std::shared_ptr`
+- ### Copies are of the pointer, not the memory on the heap
 ![](./img/shared_ptr.png)
 
 ![](./img/shared_ptr_2.png)
@@ -210,3 +213,33 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/961
 
 - ### More efficeint way to initialize a `shared_ptr` since C++11
 ![](./img/shared_ptr_6.png)
+
+<br>
+
+## `std::weak_ptr`
+![](./img/weak_ptr.png)
+
+![](./img/weak_ptr_2.png)
+
+- ### `weak_ptr` solves the ***"Circular Reference"*** problem:
+	- ### `shared_ptr` can cause a memory leak if two objects are pointing to each other
+		- ### The pointers will be destroyed from the stack when they go out of scope, but the memory on the heap will not be freed
+		- ### `A` keeps `B` alive, and `B` keeps `A` alive
+		- ### ***'chicken and egg'***
+
+- ### E.g. (Circular Reference - Destructors are not called)
+![](./img/weak_ptr_4.png)
+
+![](./img/weak_ptr_3.png)
+
+<br>
+
+## Custom deleters
+- ### A function that accepts a raw pointer and deletes it at the end of the function body
+- ### Called when a smart pointer is deleted (goes out of scope)
+
+![](./img/custom_deleters.png)
+
+![](./img/custom_deleters_2.png)
+
+![](./img/custom_deleters_3.png)

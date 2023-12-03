@@ -12,11 +12,8 @@
 				"-Wall",
 				"-std=c++17",
 				"${fileDirname}/*.cpp",
-				"${fileDirname}/Account/*.cpp",
-				"${fileDirname}/Account_Util/*.cpp",
-				"${fileDirname}/Checking_Account/*.cpp",
-				"${fileDirname}/Savings_Account/*.cpp",
-				"${fileDirname}/Trust_Account/*.cpp",
+				"${fileDirname}/functions/*.cpp",
+				"${fileDirname}/Test/*.cpp",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}.exe"
 			],
