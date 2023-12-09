@@ -462,3 +462,52 @@ for (size_t i {0}; i < myString.length(); ++i) {
 ![](./img/move_constructors_4.png)
 
 ![](./img/r_value_2.png)
+
+<br>
+
+## Enums (Enumerations)
+![](./img/enums.png)
+
+- ### E.g.
+![](./img/enums_2.png)
+
+- ### E.g.
+![](./img/enums_3.png)
+
+- ### E.g. If the type is not specified, the compiler assigns the smallest type that can hold the range of values (signed given preference over unsigned)
+
+- ### We can also assign a type to the enum
+![](./img/enums_4.png)
+
+- ### E.g. Type safety
+![](./img/enums_5.png)
+
+<br>
+
+## Unscoped and Scoped enums
+- ### Unscoped enums
+	- ### Enumerators are injected into the surrounding scope
+	- ### Implicit conversion to integral types
+	- ### May lead to naming conflicts
+
+- ### Scoped enums
+	- ### Enumerators are scoped within the enum class.
+	- ### No implicit conversion to integral types
+	- ### No naming conflicts (Better encapsulation and type safety)
+
+- ### Everything you can do with a unscoped enum, you can do with a scoped enum, so long as you specify the scope
+
+<br>
+
+- ### E.g. Unscoped enum example
+![](./img/enums_6.png)
+
+- ### E.g. Another Unscoped enum example
+![](./img/enums_7.png)
+
+<br>
+
+- ### Unlike Unscoped enums, Scoped enum variables are not implicitly convertable; we must explicitly cast the variable to it's underlying type
+![](./img/enums_8.png)
+
+![](./img/enums_9.png)
