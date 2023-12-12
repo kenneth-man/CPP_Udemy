@@ -12,8 +12,6 @@
 				"-Wall",
 				"-std=c++17",
 				"${fileDirname}/*.cpp",
-				"${fileDirname}/functions/*.cpp",
-				"${fileDirname}/Test/*.cpp",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}.exe"
 			],

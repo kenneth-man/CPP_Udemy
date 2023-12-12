@@ -54,4 +54,38 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/101
 <br>
 
 - ### Stream manipulators - Floats
-	- ### 
+	![](./img/float_manipulators.png)
+
+	- ### E.g. Setting precision
+	![](./img/float_manipulators_2.png)
+
+	![](./img/float_manipulators_3.png)
+
+	- ### E.g. Setting fixed
+	![](./img/float_manipulators_4.png)
+
+	- ### E.g. Setting precision and fixed
+	![](./img/float_manipulators_5.png)
+
+<br>
+
+- ### Stream manipulators - Align and Fill
+	- ### Work with any type of data
+	![](./img/manipulators.png)
+
+	- ### E.g. `std::setw`
+	![](./img/manipulators_2.png)
+	![](./img/manipulators_3.png)
+	![](./img/manipulators_3b.png)
+
+	- ### E.g. `std::left`/`std::right` (Justification)
+	![](./img/manipulators_4.png)
+
+	- ### E.g. `std::setfill`
+		- ### `std::setw` must be set in order to use `std::setfill`
+	![](./img/manipulators_5.png)
+	![](./img/manipulators_6.png)
+
+<br>
+
+
