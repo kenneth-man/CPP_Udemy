@@ -88,4 +88,48 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/101
 
 <br>
 
+## Reading from a text file (`std::fstream` and `std::ifstream`)
+- ### General steps
+![](./img/read_from_text_file.png)
 
+<br>
+
+- ### E.g. 1) Input Mode = Only read, not write
+- ### E.g. 2) Input Binary Mode = Used to read non text files with binary data
+![](./img/read_from_text_file_2.png)
+
+<br>
+
+- ### Can also use `std::ifstream` to read from a text file only (Recommended)
+![](./img/read_from_text_file_3.png)
+
+<br>
+
+- ### E.g.
+![](./img/read_from_text_file_4.png)
+
+- ### Could also just check using...
+	### `if (in_file) {...}`
+
+![](./img/read_from_text_file_5.png)
+![](./img/read_from_text_file_6.png)
+
+<br>
+
+- ### E.g. Reading using `>>`
+	- ### `>>` Separates on whitespace and so can be used to read "words" that are seperated by a space
+![](./img/read_from_text_file_7.png)
+
+<br>
+
+- ### E.g. Reading one line at a time (`std::getline`)
+![](./img/read_from_text_file_8.png)
+
+<br>
+
+- ### E.g. Reading one character at a time (`std::ifstream::get`)
+![](./img/read_from_text_file_9.png)
+
+<br>
+
+## Writing to a text file
