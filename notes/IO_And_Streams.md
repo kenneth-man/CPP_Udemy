@@ -177,3 +177,31 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/101
 - ### E.g. Copying a file character at a time
 ![](./img/writing_to_file_12.png)
 ![](./img/writing_to_file_13.png)
+
+<br>
+
+## String straeams (`std::stringstream`, `std::istringstream`, `std::ostringstream`)
+- ### Allows us to read or write from strings in memory, like reading and writing to files
+- ### Useful for data validation
+
+![](./img/string_streams.png)
+
+<br>
+
+- ### E.g. `iss`
+![](./img/string_streams_2.png)
+
+<br>
+
+- ### E.g. `oss`, `oss.str()`
+![](./img/string_streams_3.png)
+
+<br>
+
+- ### `ss`
+![](./img/string_streams_4.png)
+
+<br>
+
+- ### E.g. String stream: reading, writing and validating
+![](./img/string_streams_5.png)
