@@ -132,4 +132,48 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/101
 
 <br>
 
-## Writing to a text file
+## Writing to a text file (`std::fstream` and `std::ofstream`)
+![](./img/writing_to_file.png)
+![](./img/writing_to_file_2.png)
+
+<br>
+
+- ### E.g. `fstream`...`out_file`
+![](./img/writing_to_file_3.png)
+
+<br>
+
+- ### E.g. `ofstream`...`out_file`
+![](./img/writing_to_file_4.png)
+
+<br>
+
+- ### E.g. truncating is default...`std::ios::trunc`
+	- ### `std::ios::app`
+	- ### `std::ios::ate`
+
+![](./img/writing_to_file_5.png)
+
+<br>
+
+- ### E.g. Opening a file
+![](./img/writing_to_file_6.png)
+![](./img/writing_to_file_7.png)
+![](./img/writing_to_file_8.png)
+
+<br>
+
+- ### E.g. Writing to a file
+![](./img/writing_to_file_9.png)
+
+<br>
+
+- ### E.g. Copying a file one line at a time
+![](./img/writing_to_file_10.png)
+![](./img/writing_to_file_11.png)
+
+<br>
+
+- ### E.g. Copying a file character at a time
+![](./img/writing_to_file_12.png)
+![](./img/writing_to_file_13.png)
