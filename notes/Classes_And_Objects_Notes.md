@@ -226,6 +226,8 @@ Player enemy {"Random Enemy"};
 
 ### Accessing static members using the class name then the scope resolution operator `::`
 
+### Any scope resolution operator without prefix, is assumed to be the global scope E.g. `::num_players`
+
 ### E.g.
 ```
 Player::get_num_players();
