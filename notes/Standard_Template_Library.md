@@ -97,6 +97,14 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/105
 <br>
 
 ## STL Containers
+- ### All container classes make copies of the elements they store
+	- ### 1. Pros:
+		- ### Doesn't contain additional information regarding the container integration
+		- ### Object's lifetime managed by the container (less complex)
+	- ### 2. Cons:
+		- ### An object can belong only to one container (or the contaier should store pointers to objects)
+		- ### Overhead on storing copies
+		- ### Can't store derived object and still maintain its original type (loses polymorphism)
 ![](./img/stl_containers.png)
 ![](./img/stl_containers_2.png)
 ![](./img/stl_containers_3.png)
@@ -178,6 +186,8 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/105
 ## Sequence Container - `std::vector`
 - ### `emplace_back()` is more efficient than `insert()` because `push_back()` doesn't have to move or copy elements. `insert()` is linear time
 ![](./img/std_vector.png)
+
+- ### E.g. Common methods
 ![](./img/std_vector_3.png)
 ![](./img/std_vector_4.png)
 ![](./img/std_vector_5.png)
@@ -201,3 +211,25 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/105
 <br>
 
 ## Sequence Container - `std::deque`
+- ### *"Linked list of vectors"*
+- ### Use when need to insert into the front or back
+![](./img/deque.png)
+![](./img/deque_2.png)
+- ### Add elements to the front or back of the deque if there's space, if not, then allocate a block of memory, store value and link new block to existing deque blocks
+- ### Each block is contigious, but the linked blocks are not contigious in memory
+![](./img/deque_3.png)
+
+- ### E.g. Common methods
+![](./img/deque_4.png)
+![](./img/deque_5.png)
+
+- ### E.g.
+![](./img/deque_6.png)
+
+- ### E.g.
+![](./img/deque_7.png)
+
+- ### E.g.
+![](./img/deque_8.png)
+
+<br>
