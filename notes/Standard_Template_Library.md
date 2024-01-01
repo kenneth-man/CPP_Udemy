@@ -184,7 +184,8 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/105
 <br>
 
 ## Sequence Container - `std::vector`
-- ### `emplace_back()` is more efficient than `insert()` because `push_back()` doesn't have to move or copy elements. `insert()` is linear time
+- ### `emplace` means you pass the constructor arguments to the method, instead of creating an object and passing it
+- ### `emplace_back()`, `emplace_front()` is more efficient than `insert()` because `push_back()` doesn't have to move or copy elements (Copy/Move constructor). `insert()` is linear time
 ![](./img/std_vector.png)
 
 - ### E.g. Common methods
@@ -233,3 +234,42 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/105
 ![](./img/deque_8.png)
 
 <br>
+
+## Sequence Container - `std::list` and `std::forward_list`
+![](./img/list.png)
+
+- ### `std::list` = Doubly linked list
+	- ### Each element has a reference (link) to the previous and next element
+	- ### Overhead in maintaining the links
+![](./img/list_2.png)
+![](./img/list_3.png)
+![](./img/list_4.png)
+![](./img/list_5.png)
+![](./img/list_6.png)
+
+- ### `insert`, `erase`, `resize`
+![](./img/list_7.png)
+
+![](./img/list_8.png)
+
+- ### E.g. Default Constructor is called with `resize`
+![](./img/list_9.png)
+
+- ### E.g. Invalidated Iterator
+![](./img/list_10.png)
+
+- ### E.g. `emplace`, `emplace_back`
+![](./img/list_11.png)
+
+<br>
+
+- ### `std::forward_list` = Singly linked list
+	- ### Forward lists can only be traversed in one direction
+	- ### Less overhead in maintaining the links
+![](./img/forward_list.png)
+![](./img/forward_list_2.png)
+![](./img/forward_list_3.png)
+![](./img/forward_list_4.png)
+
+- ### `insert_after`, `emplace_after`, `erase_after`, `resize`
+![](./img/forward_list_5.png)
