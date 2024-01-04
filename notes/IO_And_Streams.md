@@ -182,7 +182,7 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/101
 
 <br>
 
-## String straeams (`std::stringstream`, `std::istringstream`, `std::ostringstream`)
+## String streams (`std::stringstream`, `std::istringstream`, `std::ostringstream`)
 - ### Allows us to read or write from strings in memory, like reading and writing to files
 - ### Useful for data validation
 

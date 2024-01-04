@@ -273,3 +273,106 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/105
 
 - ### `insert_after`, `emplace_after`, `erase_after`, `resize`
 ![](./img/forward_list_5.png)
+
+<br>
+
+## Associative Container - Set
+- ### `std::set`
+- ### `std::multiset`
+- ### `std::unordered_set`
+- ### `std::unordered_multiset`
+![](./img/set.png)
+
+<br>
+
+- ### `std::set`
+	- ### Ordered elements; Sorts automatically
+	- ### Sorted by key
+	- ### No duplicates
+	- ### No Direct access to elements `[]`
+![](./img/set_3.png)
+![](./img/set_4.png)
+![](./img/set_5.png)
+![](./img/set_6.png)
+![](./img/set_7.png)
+
+<br>
+
+- ### `std::multiset`
+	- ### Ordered elements; Sorts automatically
+	- ### Sorted by key
+	- ### Duplicates allowed
+	- ### No Direct access to elements `[]`
+
+<br>
+
+- ### `std::unordered_set`
+	- ### Unordered elements
+	- ### Elements cannot be modified (must `erase` then `insert`)
+	- ### No reverse iterators
+	- ### No duplicates
+	- ### No Direct access to elements `[]`
+
+<br>
+
+- ### `std::unordered_multiset`
+	- ### Unordered elements
+	- ### No reverse iterators
+	- ### Duplicates allowed
+	- ### No Direct access to elements `[]`
+
+<br>
+
+## Associative Container - Map
+- ### Elements are stored by key value pairs (`std::pair`)
+- ### `std::map`
+- ### `std::multimap`
+- ### `std::unordered_map`
+- ### `std::unordered_multimap`
+![](./img/map.png)
+
+<br>
+
+- ### `std::map`
+	- ### No duplicates
+	- ### Ordered by key; sorted automatically
+	- ### Direct access using key (`.at()` or `[]`)
+
+![](./img/map_2.png)
+![](./img/map_3.png)
+![](./img/map_4.png)
+![](./img/map_5.png)
+![](./img/map_6.png)
+![](./img/map_7.png)
+
+<br>
+
+- ### `std::multimap`
+	- ### Duplicates allowed
+	- ### Ordered by key; sorted automatically
+
+<br>
+
+- ### `std::unordered_map`
+	- ### No duplicates
+	- ### Unordered elements
+	- ### No reverse iterators
+
+<br>
+
+- ### `std::unordered_multimap`
+	- ### Duplicate allowed
+	- ### Unordered elements
+	- ### No reverse iterators
+
+<br>
+
+- ## Container Adapters - `std::stack`
+![](./img/stack.png)
+![](./img/stack_2.png)
+![](./img/stack_3.png)
+![](./img/stack_4.png)
+
+<br>
+
+- ## Container Adapters - `std::queue`
