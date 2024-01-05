@@ -385,3 +385,6 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/105
 <br>
 
 - ## Container Adapters - `std::priority_queue`
+![](./img/priority_queue.png)
+![](./img/priority_queue_2.png)
+![](./img/priority_queue_3.png)
