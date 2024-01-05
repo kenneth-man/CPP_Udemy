@@ -9,7 +9,7 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/105
 	- ### ***Containers***
 		- ### Sequence
 		- ### Associative
-		- ### Adapters
+		- ### Adapters (Used on existing STL containers)
 	- ### ***Algorithms***
 	- ### ***Iterators***
 		- ### Input
@@ -376,3 +376,12 @@ https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/105
 <br>
 
 - ## Container Adapters - `std::queue`
+![](./img/queue.png)
+![](./img/queue_2.png)
+![](./img/queue_3.png)
+![](./img/queue_4.png)
+![](./img/queue_5.png)
+
+<br>
+
+- ## Container Adapters - `std::priority_queue`
