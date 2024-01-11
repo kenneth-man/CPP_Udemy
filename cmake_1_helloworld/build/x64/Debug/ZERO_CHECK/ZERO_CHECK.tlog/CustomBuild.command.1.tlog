@@ -1,0 +1,10 @@
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE_1_HELLOWORLD\BUILD\CMAKEFILES\6820BF5719BEE91DC2D7F7819000A019\GENERATE.STAMP.RULE
+setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake_1_helloworld" "-BC:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake_1_helloworld/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake_1_helloworld/build/CppProjectTemplate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

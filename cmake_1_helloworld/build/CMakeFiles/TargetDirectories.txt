@@ -1,0 +1,3 @@
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake_1_helloworld/build/CMakeFiles/myHelloWorldApp.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake_1_helloworld/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake_1_helloworld/build/CMakeFiles/ZERO_CHECK.dir
