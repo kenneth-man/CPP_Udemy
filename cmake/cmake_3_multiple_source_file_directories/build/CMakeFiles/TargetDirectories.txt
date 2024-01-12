@@ -1,0 +1,4 @@
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_3_multiple_source_file_directories/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_3_multiple_source_file_directories/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_3_multiple_source_file_directories/build/app/CMakeFiles/myExecutable.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_3_multiple_source_file_directories/build/src/my_lib/CMakeFiles/Library.dir

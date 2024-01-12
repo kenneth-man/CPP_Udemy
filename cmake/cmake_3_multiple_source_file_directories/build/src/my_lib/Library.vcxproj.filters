@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_3_multiple_source_file_directories\src\my_lib\my_lib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_3_multiple_source_file_directories\src\my_lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8FE57022-F37C-347E-9D86-19C0B532B4FE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
