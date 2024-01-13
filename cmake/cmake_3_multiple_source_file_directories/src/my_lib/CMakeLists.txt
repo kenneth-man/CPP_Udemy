@@ -1,2 +1,2 @@
 # Add a target - Create library for file
-add_library(Library STATIC my_lib.cpp)
+add_library(myLibrary STATIC my_lib.cpp)

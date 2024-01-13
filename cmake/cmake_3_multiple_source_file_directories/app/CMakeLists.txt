@@ -2,4 +2,4 @@
 add_executable(myExecutable main.cpp)
 
 # Link library with executable
-target_link_libraries(myExecutable PUBLIC Library)
+target_link_libraries(myExecutable PUBLIC myLibrary)

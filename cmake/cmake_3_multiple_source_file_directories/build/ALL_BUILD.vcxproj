@@ -173,13 +173,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_3_multiple_source_file_directories\build\src\my_lib\Library.vcxproj">
-      <Project>{DE3D4AD8-DE06-3163-B908-980176E0F3B8}</Project>
-      <Name>Library</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_3_multiple_source_file_directories\build\app\myExecutable.vcxproj">
       <Project>{30A73983-2D23-3B22-BD4B-891807C0FBC7}</Project>
       <Name>myExecutable</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_3_multiple_source_file_directories\build\src\my_lib\myLibrary.vcxproj">
+      <Project>{27D5E138-A9B1-3BD9-9C20-E4EE859F47FD}</Project>
+      <Name>myLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
