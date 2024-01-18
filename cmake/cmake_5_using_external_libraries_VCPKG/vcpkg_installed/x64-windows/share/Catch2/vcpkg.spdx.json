@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/catch2-x64-windows-3.5.1-912dcc1d-2392-411e-a9a0-b1ff7d1047ab",
+  "name": "catch2:x64-windows@3.5.1 90097483ccb325ecd1256995940e559c48996c496ec5b25f119a0c69cd517b5d",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-710a3116bbd615864eef5f9010af178034cb9b44"
+    ],
+    "created": "2024-01-13T19:30:53Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "catch2",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "3.5.1",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@9b749693bba3f346f03e2ccd047ee26b22c123c3",
+      "homepage": "https://github.com/catchorg/Catch2",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "catch2:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "90097483ccb325ecd1256995940e559c48996c496ec5b25f119a0c69cd517b5d",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "catchorg/Catch2",
+      "downloadLocation": "git+https://github.com/catchorg/Catch2@v3.5.1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "90c5fcf2d4b9771f5b30e027099da0d15e294b85d28702020435606efda2a4edc96b3d2007b60e5a32178248ad129b4aba0fb96582156244d62e1edacda6ce7d"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_VCPKG/external/vcpkg/buildtrees/versioning_/versions/catch2/9b749693bba3f346f03e2ccd047ee26b22c123c3/fix-install-path.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d67374154f1910e41937173e9871991dfd5e43f43cca19a2fec10d3392000275"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_VCPKG/external/vcpkg/buildtrees/versioning_/versions/catch2/9b749693bba3f346f03e2ccd047ee26b22c123c3/portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "006f345cc73f0102c158eeee13a5837df8379c0955a4b20ecb2d1824dcef1605"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_VCPKG/external/vcpkg/buildtrees/versioning_/versions/catch2/9b749693bba3f346f03e2ccd047ee26b22c123c3/vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2024bbbcc3008743a16629ec700e616443f1807143b3a004589400b292ad9f2f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
