@@ -1,0 +1,8 @@
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/src/my_lib/CMakeFiles/myLibrary.dir
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/app/CMakeFiles/myExecutable.dir

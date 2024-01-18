@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\f5b5a81909b42861a9e30fe46a96c22b\json-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\f5b5a81909b42861a9e30fe46a96c22b\json-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\f5b5a81909b42861a9e30fe46a96c22b\json-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\f5b5a81909b42861a9e30fe46a96c22b\json-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\f5b5a81909b42861a9e30fe46a96c22b\json-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\f5b5a81909b42861a9e30fe46a96c22b\json-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\f5b5a81909b42861a9e30fe46a96c22b\json-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\f5b5a81909b42861a9e30fe46a96c22b\json-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\6a6a4450034bbeeef22865af36ca88ac\json-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\9a0b649f13d777b53a55566b40013739\json-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-subbuild\CMakeFiles\json-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A8826FFC-1D10-3C71-B797-9EE0F99B026E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

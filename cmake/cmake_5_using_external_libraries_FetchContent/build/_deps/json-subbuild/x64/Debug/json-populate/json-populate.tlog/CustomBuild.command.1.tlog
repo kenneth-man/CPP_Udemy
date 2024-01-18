@@ -1,0 +1,152 @@
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\F5B5A81909B42861A9E30FE46A96C22B\JSON-POPULATE-MKDIR.RULE
+setlocal
+C:\mingw64\bin\cmake.exe -Dcfgdir=/Debug -P "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/tmp/json-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E touch "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\F5B5A81909B42861A9E30FE46A96C22B\JSON-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -P "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/download-json-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -P "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/verify-json-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -P "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/extract-json-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E touch "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\F5B5A81909B42861A9E30FE46A96C22B\JSON-POPULATE-UPDATE.RULE
+setlocal
+C:\mingw64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E touch "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\F5B5A81909B42861A9E30FE46A96C22B\JSON-POPULATE-PATCH.RULE
+setlocal
+C:\mingw64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E touch "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\F5B5A81909B42861A9E30FE46A96C22B\JSON-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E touch "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\F5B5A81909B42861A9E30FE46A96C22B\JSON-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E touch "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\F5B5A81909B42861A9E30FE46A96C22B\JSON-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E touch "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\F5B5A81909B42861A9E30FE46A96C22B\JSON-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent\build\_deps\json-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E touch "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\6A6A4450034BBEEEF22865AF36CA88AC\JSON-POPULATE-COMPLETE.RULE
+setlocal
+C:\mingw64\bin\cmake.exe -E make_directory "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E touch "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/CMakeFiles/Debug/json-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+C:\mingw64\bin\cmake.exe -E touch "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\9A0B649F13D777B53A55566B40013739\JSON-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KWKM\DESKTOP\PERSONAL PROJECTS\C++\NOTES\CMAKE\CMAKE_5_USING_EXTERNAL_LIBRARIES_FETCHCONTENT\BUILD\_DEPS\JSON-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild" "-BC:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild" --check-stamp-file "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/json-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

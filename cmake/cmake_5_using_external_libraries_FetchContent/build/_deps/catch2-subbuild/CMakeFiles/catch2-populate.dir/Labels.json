@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
+		},
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/a9539dc54fe5ab126020bd34abf39b46/catch2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/aab317785a42789fe4e0951ef319c6f9/catch2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/8653acb194c5869007f7c3a97d889c5e/catch2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/8653acb194c5869007f7c3a97d889c5e/catch2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/8653acb194c5869007f7c3a97d889c5e/catch2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/8653acb194c5869007f7c3a97d889c5e/catch2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/8653acb194c5869007f7c3a97d889c5e/catch2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/8653acb194c5869007f7c3a97d889c5e/catch2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/8653acb194c5869007f7c3a97d889c5e/catch2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent/build/_deps/catch2-subbuild/CMakeFiles/8653acb194c5869007f7c3a97d889c5e/catch2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catch2-populate"
+		],
+		"name" : "catch2-populate"
+	}
+}
