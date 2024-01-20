@@ -2,8 +2,10 @@
 C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/_deps/catch2-subbuild/CMakeFiles/3.26.3/CMakeSystem.cmake
 C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/_deps/catch2-subbuild/CMakeLists.txt
 C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/_deps/catch2-subbuild/catch2-populate-prefix/tmp/catch2-populate-mkdirs.cmake
+C:/mingw64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake
 C:/mingw64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
 C:/mingw64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+C:/mingw64/share/cmake-3.26/Modules/CMakeSystem.cmake.in
 C:/mingw64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
 C:/mingw64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
 C:/mingw64/share/cmake-3.26/Modules/ExternalProject.cmake

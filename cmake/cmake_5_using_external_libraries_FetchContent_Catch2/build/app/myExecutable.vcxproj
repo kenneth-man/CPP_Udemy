@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,7 +113,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\src\my_lib\Debug\myLibrary.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\src\my_lib\Debug\myLibrary.lib;..\src\my_lib_2\Debug\myLibrary2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -144,10 +144,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -155,7 +155,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\src\my_lib\Release\myLibrary.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\src\my_lib\Release\myLibrary.lib;..\src\my_lib_2\Release\myLibrary2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -170,7 +170,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -186,10 +186,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -197,7 +197,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\src\my_lib\MinSizeRel\myLibrary.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\src\my_lib\MinSizeRel\myLibrary.lib;..\src\my_lib_2\MinSizeRel\myLibrary2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -212,7 +212,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -227,10 +227,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib\.;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\_deps\json-src\include;C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\include\my_lib_2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -238,7 +238,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\src\my_lib\RelWithDebInfo\myLibrary.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\src\my_lib\RelWithDebInfo\myLibrary.lib;..\src\my_lib_2\RelWithDebInfo\myLibrary2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -323,6 +323,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\src\my_lib\myLibrary.vcxproj">
       <Project>{34DC43BE-879A-319F-BED6-83C61A9AC107}</Project>
       <Name>myLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\src\my_lib_2\myLibrary2.vcxproj">
+      <Project>{8EBD6BED-BF95-3981-AF5C-CF27A296E18A}</Project>
+      <Name>myLibrary2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

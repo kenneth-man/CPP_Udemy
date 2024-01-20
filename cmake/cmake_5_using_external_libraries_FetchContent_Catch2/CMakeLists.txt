@@ -1,6 +1,12 @@
 # `mkdir build`
 # `cd build`
+	# Generates build files
+		# Contain instructions and configuration information for a build system to compile, link, and generate the final executable or library from source code
+		# The build system uses these files to automate the process of transforming human-readable source code into machine-executable binaries
 # `cmake ..` or `cmake .. -DCOMPILE_EXECUTABLE=ON`
+	# Compilation and linking
+		# After compiling source code files (e.g., .c, .cpp), object files (e.g., .o, .obj) are generated containing machine code corresponding to the compiled source code
+		# The linker takes these object files, resolves symbols (functions or variables that were declared but not defined in the current file), and combines them to produce an executable
 # `cmake --build .`
 
 
@@ -28,6 +34,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Custom Global Variables
 # All subdirectories have access to variables defined in root CMakeLists.txt
 set(LIBRARY_NAME myLibrary)
+set(LIBRARY_NAME_2 myLibrary2)
 set(EXECUTABLE_NAME myExecutable)
 
 # Custom Options

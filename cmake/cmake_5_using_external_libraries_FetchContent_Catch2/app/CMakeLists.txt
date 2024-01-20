@@ -3,3 +3,4 @@ add_executable(${EXECUTABLE_NAME} main.cpp)
 
 # Link library with executable
 target_link_libraries(${EXECUTABLE_NAME} PUBLIC ${LIBRARY_NAME})
+target_link_libraries(${EXECUTABLE_NAME} PUBLIC ${LIBRARY_NAME_2})

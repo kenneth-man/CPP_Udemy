@@ -8,7 +8,10 @@
       <FullPath>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\app\Debug\myExecutable.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\tests\Debug\myTests.exe</FullPath>
+      <FullPath>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\tests\my_lib_2\Debug\myLib2Tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\tests\my_lib\Debug\myLibTests.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\kwkm\Desktop\Personal Projects\C++\notes\cmake\cmake_5_using_external_libraries_FetchContent_Catch2\build\x64\Debug\ALL_BUILD</FullPath>

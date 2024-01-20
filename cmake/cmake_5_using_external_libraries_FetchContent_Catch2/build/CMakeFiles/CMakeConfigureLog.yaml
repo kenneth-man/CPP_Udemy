@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:16 (project)"
     message: |
       The system is: Windows - 6.2.9200 - AMD64
   -
@@ -14,7 +14,7 @@ events:
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:16 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.8.3+195e7f5a3 for .NET Framework
-      Build started 20/01/2024 14:13:59.
+      Build started 20/01/2024 19:37:57.
       
       Project "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.83
+      Time Elapsed 00:00:00.94
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -69,7 +69,7 @@ events:
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:16 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.8.3+195e7f5a3 for .NET Framework
-      Build started 20/01/2024 14:14:00.
+      Build started 20/01/2024 19:37:58.
       
       Project "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.92
+      Time Elapsed 00:00:00.81
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -123,12 +123,12 @@ events:
     backtrace:
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:16 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-c1uyda"
-      binary: "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-c1uyda"
+      source: "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-wzrjw9"
+      binary: "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-wzrjw9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -137,39 +137,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-c1uyda
+        Change Dir: C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-wzrjw9
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0b808.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
-        Build started 20/01/2024 14:14:02.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ff295.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+        Build started 20/01/2024 19:37:59.
         
-        Project "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1uyda\\cmTC_0b808.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzrjw9\\cmTC_ff295.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0b808.dir\\Debug\\".
+          Creating directory "cmTC_ff295.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1uyda\\Debug\\".
-          Creating directory "cmTC_0b808.dir\\Debug\\cmTC_0b808.tlog\\".
+          Creating directory "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzrjw9\\Debug\\".
+          Creating directory "cmTC_ff295.dir\\Debug\\cmTC_ff295.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0b808.dir\\Debug\\cmTC_0b808.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0b808.dir\\Debug\\cmTC_0b808.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ff295.dir\\Debug\\cmTC_ff295.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ff295.dir\\Debug\\cmTC_ff295.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b808.dir\\Debug\\\\" /Fd"cmTC_0b808.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff295.dir\\Debug\\\\" /Fd"cmTC_ff295.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33134 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b808.dir\\Debug\\\\" /Fd"cmTC_0b808.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff295.dir\\Debug\\\\" /Fd"cmTC_ff295.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1uyda\\Debug\\cmTC_0b808.exe" /INCREMENTAL /ILK:"cmTC_0b808.dir\\Debug\\cmTC_0b808.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-c1uyda/Debug/cmTC_0b808.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-c1uyda/Debug/cmTC_0b808.lib" /MACHINE:X64  /machine:x64 cmTC_0b808.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_0b808.vcxproj -> C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1uyda\\Debug\\cmTC_0b808.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzrjw9\\Debug\\cmTC_ff295.exe" /INCREMENTAL /ILK:"cmTC_ff295.dir\\Debug\\cmTC_ff295.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-wzrjw9/Debug/cmTC_ff295.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-wzrjw9/Debug/cmTC_ff295.lib" /MACHINE:X64  /machine:x64 cmTC_ff295.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ff295.vcxproj -> C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzrjw9\\Debug\\cmTC_ff295.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_0b808.dir\\Debug\\cmTC_0b808.tlog\\unsuccessfulbuild".
-          Touching "cmTC_0b808.dir\\Debug\\cmTC_0b808.tlog\\cmTC_0b808.lastbuildstate".
-        Done Building Project "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1uyda\\cmTC_0b808.vcxproj" (default targets).
+          Deleting file "cmTC_ff295.dir\\Debug\\cmTC_ff295.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ff295.dir\\Debug\\cmTC_ff295.tlog\\cmTC_ff295.lastbuildstate".
+        Done Building Project "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzrjw9\\cmTC_ff295.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.84
+        Time Elapsed 00:00:00.89
         
       exitCode: 0
   -
@@ -177,12 +177,12 @@ events:
     backtrace:
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
       - "C:/mingw64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:16 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-cfqvbu"
-      binary: "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-cfqvbu"
+      source: "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-kqfhog"
+      binary: "C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-kqfhog"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -191,39 +191,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-cfqvbu
+        Change Dir: C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-kqfhog
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_47e66.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
-        Build started 20/01/2024 14:14:03.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_03c3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+        Build started 20/01/2024 19:38:01.
         
-        Project "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfqvbu\\cmTC_47e66.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfhog\\cmTC_03c3c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_47e66.dir\\Debug\\".
+          Creating directory "cmTC_03c3c.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfqvbu\\Debug\\".
-          Creating directory "cmTC_47e66.dir\\Debug\\cmTC_47e66.tlog\\".
+          Creating directory "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfhog\\Debug\\".
+          Creating directory "cmTC_03c3c.dir\\Debug\\cmTC_03c3c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_47e66.dir\\Debug\\cmTC_47e66.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_47e66.dir\\Debug\\cmTC_47e66.tlog\\unsuccessfulbuild".
+          Creating "cmTC_03c3c.dir\\Debug\\cmTC_03c3c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_03c3c.dir\\Debug\\cmTC_03c3c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47e66.dir\\Debug\\\\" /Fd"cmTC_47e66.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03c3c.dir\\Debug\\\\" /Fd"cmTC_03c3c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33134 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47e66.dir\\Debug\\\\" /Fd"cmTC_47e66.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03c3c.dir\\Debug\\\\" /Fd"cmTC_03c3c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfqvbu\\Debug\\cmTC_47e66.exe" /INCREMENTAL /ILK:"cmTC_47e66.dir\\Debug\\cmTC_47e66.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-cfqvbu/Debug/cmTC_47e66.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-cfqvbu/Debug/cmTC_47e66.lib" /MACHINE:X64  /machine:x64 cmTC_47e66.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_47e66.vcxproj -> C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfqvbu\\Debug\\cmTC_47e66.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfhog\\Debug\\cmTC_03c3c.exe" /INCREMENTAL /ILK:"cmTC_03c3c.dir\\Debug\\cmTC_03c3c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-kqfhog/Debug/cmTC_03c3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/CMakeFiles/CMakeScratch/TryCompile-kqfhog/Debug/cmTC_03c3c.lib" /MACHINE:X64  /machine:x64 cmTC_03c3c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_03c3c.vcxproj -> C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfhog\\Debug\\cmTC_03c3c.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_47e66.dir\\Debug\\cmTC_47e66.tlog\\unsuccessfulbuild".
-          Touching "cmTC_47e66.dir\\Debug\\cmTC_47e66.tlog\\cmTC_47e66.lastbuildstate".
-        Done Building Project "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfqvbu\\cmTC_47e66.vcxproj" (default targets).
+          Deleting file "cmTC_03c3c.dir\\Debug\\cmTC_03c3c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_03c3c.dir\\Debug\\cmTC_03c3c.tlog\\cmTC_03c3c.lastbuildstate".
+        Done Building Project "C:\\Users\\kwkm\\Desktop\\Personal Projects\\C++\\notes\\cmake\\cmake_5_using_external_libraries_FetchContent_Catch2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfhog\\cmTC_03c3c.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.87
+        Time Elapsed 00:00:01.04
         
       exitCode: 0
 ...
