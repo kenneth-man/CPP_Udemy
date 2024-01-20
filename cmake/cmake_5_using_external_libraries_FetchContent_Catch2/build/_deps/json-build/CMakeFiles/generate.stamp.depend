@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/_deps/json-src/CMakeLists.txt
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/_deps/json-src/cmake/config.cmake.in
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/_deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in
+C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_5_using_external_libraries_FetchContent_Catch2/build/_deps/json-src/cmake/pkg-config.pc.in
+C:/mingw64/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake
+C:/mingw64/share/cmake-3.26/Modules/ExternalProject.cmake
+C:/mingw64/share/cmake-3.26/Modules/GNUInstallDirs.cmake
+C:/mingw64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
