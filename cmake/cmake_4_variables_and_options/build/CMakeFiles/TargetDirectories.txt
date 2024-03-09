@@ -1,4 +1,0 @@
-C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_4_variables_and_options/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_4_variables_and_options/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_4_variables_and_options/build/src/my_lib/CMakeFiles/myLibrary.dir
-C:/Users/kwkm/Desktop/Personal Projects/C++/notes/cmake/cmake_4_variables_and_options/build/app/CMakeFiles/myExecutable.dir
